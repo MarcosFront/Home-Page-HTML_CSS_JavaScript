@@ -25,3 +25,24 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+const sr= ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+sr.reveal('.home_title',{})
+sr.reveal('.button',{delay:200})
+sr.reveal('.home_social',{interval:200})
+
+sr.reveal('.sobre_img',{})
+sr.reveal('.sobre_text',{delay: 200})
+
+sr.reveal('habilidades_sub',{})
+sr.reveal('.habilidades_img',{delay:200})
+sr.reveal('.habilidades_text',{delay: 200})
+sr.reveal('.habilidades_data',{interval:200})
+
+sr.reveal('trabalho_img',{interval: 200})

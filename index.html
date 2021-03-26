@@ -15,16 +15,17 @@
     <header class="header">
         <nav class="nav">
             <div>
-                <a href="#" class="nav_logo">ValueWeb</a>
+                <a href="http://valueweb.com.br/" class="nav_logo">ValueWeb</a>
             </div>
             
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Sobre</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Habilidades</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Trabalhos</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">Contato</a></li>
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#sobre" class="nav_link">Sobre</a></li>
+                    <li class="nav_item"><a href="#habilidades" class="nav_link">Habilidades</a></li>
+                    <li class="nav_item"><a href="#trabalhos" class="nav_link">Trabalhos</a></li>
+                    <li class="nav_item"><a href="#contato" class="nav_link">Currículo</a></li>
+                    <li class="nav_item"><a href="#contato" class="nav_link">Contato</a></li>
                 </ul>
             </div>
             <div class="nav_toggle" id="nav-toggle">
@@ -41,27 +42,208 @@
 
     <main class="main">
         <!-- Home -->
-        <section class="home" id="home">
-            <div class="home_data">
+        <section class="home bd-grid" id="home">
+            <div class="home_data" >
                 <h1 class="home_title">Ola,<br> Sou <span class="home_title-color">Marcos</span><br>Desenvolvedor Front-end</h1>
-                <a href="#" class="button">contato</a>
+                <a href="#contato" class="button">Currículo</a>
             </div>
             <div class="home_social">
-                <a href="https://www.linkedin.com/in/marcos-souza-36765b161/" class="home_social-icone"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/MarcosFront" class="home_social-icone"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/marcos-souza-36765b161/" target="_blank" class="home_social-icone"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/MarcosFront" target="_blank" class="home_social-icone"><i class='bx bxl-github'></i></a>
 
             </div>
 
             <div class="home_img">
-                <img src="front.png" alt="">
+                <img src="front1.png" alt="">
             </div>
         </section>
+
+        <!--Sobre-->
+        <section class="sobre section" id="sobre">
+           <!-- <h2 class="section-title">Sobre</h2> -->
+            <div class="sobre_conteudo bd-grid">
+                <div class="sobre_img">
+                    <img src="sobreimg.jpg" alt="">
+                </div>
+                <div>              
+                    <h2 class="sobre_subtitulo">Quem sou eu?</h2>
+                    <p class="sobre_texto">Sou desenvolvedor Front-end com experiencia em desenvolvimento de sites e sistemas para Web. Mais de 2 anos de experiencia em desenvolvimento Front-end em pequenas e grandes empresas.</p>
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <div class="habilidades_conteudo bd-grid">
+                <div>
+                    <h2 class="habilidades_sub">Habilidades Profissinal</h2>
+                    <p class="habilidades_text">Habilidades solidas em linguagens voltadas para Front-end</p>
+                </div>
+                <div>              
+                    <img src="Habilidades.png" alt="" class="habilidades_img">
+                </div>
+      
+                
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-html5 habilidades_icon'></i>
+                        <span class="habilidades_nomes">HTML5</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">95%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_html"></div>
+                </div>
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-wordpress habilidades_icon' ></i>
+                        <span class="habilidades_nomes">WordPress</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">90%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_word"></div>
+                </div>
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-css3 habilidades_icon' ></i>
+                        <span class="habilidades_nomes">CSS3</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">80%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_css"></div>
+                </div>
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-javascript habilidades_icon' ></i>
+                        <span class="habilidades_nomes">JavaScript</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">80%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_js"></div>
+                </div>
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-bootstrap habilidades_icon' ></i>
+                        <span class="habilidades_nomes">Bootstrap</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">80%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_boot"></div>
+                </div>
+
+                
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxl-react habilidades_icon' ></i>
+                        <span class="habilidades_nomes">Reacjs</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">75%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_rjs"></div>
+                </div>
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome ">
+                        <i class='bx bxl-git habilidades_icon' ></i>
+                        <span class="habilidades_nomes">Git</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">60%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_git"></div>
+                </div>
+
+                <div class="habilidades_data">
+                    <div class="habilidades_nome">
+                        <i class='bx bxs-data habilidades_icon' ></i>
+                        <span class="habilidades_nomes">PHP</span>
+                    </div>
+                    <div>
+                        <span class="habilidades_porcentagem">50%</span>
+                    </div>
+                    <div class="habilidades_bar habilidades_php"></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="trabalhos" id="trabalhos">
+            <h2 class="section-title">Trabalhos</h2>
+            <div class="trabalhos_conteudo bd-grid">
+                <div class="trabalho_img">
+                    <a href="http://cassianoeribeiro.com.br/" target="_blank">   <img src="job.jpg" alt=""> </a>
+                </div> 
+                <div class="trabalho_img">
+                   <img src="job1.png" alt="">
+                </div> 
+            </div>
+
+        </section>
+
+        <section class="Curriculo " id="contato">
+            
+            <h2 class="section-title">Currículo</h2>
+            <div class="contato_conteudo bd-grid">  
+                <div class="brasil">            
+                <a href="documentos/Marcos Ribeiro - Currículo.pdf" target="_blank" class="button" download>Download Cv</a>
+                </div>
+                <div class="europass">
+                <a href="documentos/Marcos Souza - EuroPass.pdf" target="_blank" class="button" download>Download Cv EuroPass</a>
+         </div>
+         </div>
+         </section>
+           
+
+         <section class="contato_n" id="contato_n">
+             <h2 class="section-title">Contato</h2>
+             <div class="contaton_conteudo bd-grid">
+                 <form action="" class="contato_form">
+                     <input type="text" placeholder="Nome" class="contato_input">
+                     <input type="mail" placeholder="Email" class="contato_input">
+                     <textarea name="" cols="0" rows="10" class="contato_input"></textarea>
+
+                     <input type="button" value="Enviar" class="contato_button button">
+                 </form>
+             </div>
+         </section>
+
+               
+
+        
+        <!--WhatsApp-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <a href="https://api.whatsapp.com/send?phone=5531971021375" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+        <footer class="footer">
+            <p class="footer_title">ValueWeb</p>
+        <div class="footer_social">
+            <a href="https://www.facebook.com/marcosv.rbsouza/" target="_blank" class="footer_icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/marcosvribeiros/" target="_blank" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <p class="footer_p">&#169; 2021 copyrigth Todos direitos reservados. Desenvolvido por Marcos/ValueWeb</p>
+
+
+
+        </footer>
+
 
     </main>
 
 
 
     <!-- Scroll Reveal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"> </script>
 
